@@ -43,7 +43,7 @@ const App = () => {
   return (
     <>
       <div className='flex flex-col items-center justify-center h-screen bg-gradient-to-br from-green-950 text-white'>
-        <h1 className='py-4 text-2xl text-black font-serif'>Enter City Name To Find Temperature</h1>
+        <h1 className='py-4 text-2xl text-black font-serif flex justify-center items-center'>Enter City Name To Find Temperature</h1>
         {/* Search bar  icons */}
         <div className='flex items-center bg-white rounded-full px-4 py-2 mb-6 w-80 shadow-lg'>
           <input
@@ -82,7 +82,7 @@ const App = () => {
           <div className='flex flex-col items-center'>
             {<WiStrongWind className='text-3xl' />}
             <span className='text-lg font-medium'>{windSpeed !== null ? `${windSpeed}km/h` : "--"}</span>
-            <p className='text-sm text-black'>Humidity</p>
+            <p className='text-sm text-black'>Wind Speed</p>
           </div>
         </div>
       </div>
