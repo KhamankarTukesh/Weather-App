@@ -77,12 +77,12 @@ const App = () => {
           <div className='flex flex-col items-center '>
             {<WiHumidity className='text-3xl' />}
             <span className='text-lg font-medium'>{humidity !== null ? `${humidity}%` : "--"}</span>
-            <p className='text-sm'>Humidity</p>
+            <p className='text-sm text-black'>Humidity</p>
           </div>
           <div className='flex flex-col items-center'>
             {<WiStrongWind className='text-3xl' />}
             <span className='text-lg font-medium'>{windSpeed !== null ? `${windSpeed}km/h` : "--"}</span>
-            <p className='text-sm'>Humidity</p>
+            <p className='text-sm text-black'>Humidity</p>
           </div>
         </div>
       </div>
